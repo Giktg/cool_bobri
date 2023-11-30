@@ -6,7 +6,7 @@
 
 [Ссылка на репозиторий](https://github.com/Giktg/Repo_for_cloud_lab3)
 
-![Alt text](image-1.png)
+![Alt text](Pictures\image-1.png)
 
 Настроим workflow. Для этого создадим файл docker-build.yml внутри workflows. Конечный код:
 
@@ -43,15 +43,15 @@ jobs:
 
 Делаем пуш. Теперь зайдем в наш репозиторий на GitHub и откроем раздел Actions. В нем можно увидеть, что появился workflow.
 
-![Alt text](image.png)
+![Alt text](Pictures\image.png)
 
 Как мы видим процесс успешно завершился
 
-![Alt text](image-2.png)
+![Alt text](Pictures\image-2.png)
 
 Проверяем сработавший workflow и видим что наш образ забилдился и лежит в артефактах
 
-![Alt text](image-3.png)
+![Alt text](Pictures\image-3.png)
 
 # Вывод
 
